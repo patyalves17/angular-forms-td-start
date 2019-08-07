@@ -47,7 +47,7 @@
     </div>
   </div>
   <hr>
-  <div class="row">
+  <div class="row" *ngIf="submitted">
     <div class="col-xs-12">
       <h3>Your Data</h3>
       <p>Username: {{user.username}}</p>
